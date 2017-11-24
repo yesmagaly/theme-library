@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+body {
+  background-color: #f2f5f7;
+  color: #7b8288;
+  font-family: "Open Sans";
+  margin: 0;
+}
+
+.header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  outline: 1px solid red;
+  padding: 0 1rem .4rem 1rem;
+}
+
+.header__nav {
+  outline: 1px solid blue;
+  display: flex;
+  width: 30%;
+}
+
+.header__nav:last-child {
+  flex-direction: row-reverse;;
+}
+
+.header__menu {
+  outline: 1px solid green;
+  color: #7b8288;
+  display: flex;
+  font-size: .9rem;
+  font-weight: 500;
+  padding: 0 1.5rem 0 1rem;
+}
+
+.header__menu .fa {
+  outline: 1px solid yellow;
+  padding: 0 .7rem;
+  position: relative;
+  top: 16px;
+}
+
+.header__menu--arrow .fa {
+  @extend .header__menu .fa;
+  font-size: .7rem;
+  position: relative;
+  top: 20px;
+}
+
+.header__menu--bars .fa {
+  @extend .header__menu .fa;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+.header__title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.header__title span {
+  color: #424d59;
+}

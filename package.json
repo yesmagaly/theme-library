@@ -1,0 +1,11 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yesica Ramirez <yesmagaly@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

@@ -11,12 +11,10 @@ body {
   background-color: #fff;
   display: flex;
   justify-content: space-between;
-  outline: 1px solid red;
-  padding: 0 1rem .4rem 1rem;
+  padding: 1rem 1rem 1.5rem 1rem;
 }
 
 .header__nav {
-  outline: 1px solid blue;
   display: flex;
   width: 30%;
 }
@@ -26,7 +24,6 @@ body {
 }
 
 .header__menu {
-  outline: 1px solid green;
   color: #7b8288;
   display: flex;
   font-size: .9rem;
@@ -34,18 +31,21 @@ body {
   padding: 0 1.5rem 0 1rem;
 }
 
+.header__menu p {
+  margin: 0;
+}
+
 .header__menu .fa {
-  outline: 1px solid yellow;
   padding: 0 .7rem;
   position: relative;
-  top: 16px;
+  top: 1px;
 }
 
 .header__menu--arrow .fa {
   @extend .header__menu .fa;
   font-size: .7rem;
   position: relative;
-  top: 20px;
+  top: 6px;
 }
 
 .header__menu--bars .fa {
@@ -57,6 +57,7 @@ body {
 .header__title {
   font-size: 1.3rem;
   font-weight: 600;
+  margin: 0;
 }
 
 .header__title span {
